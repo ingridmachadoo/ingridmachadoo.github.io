@@ -1,0 +1,40 @@
+/* Este é um comentário em CSS. Ele não afeta o código. */
+
+body {
+    font-family: sans-serif; /* Uma fonte limpa e moderna */
+    line-height: 1.6; /* Melhora a legibilidade */
+    background-color: #f4f4f4; /* Um cinza bem clarinho para o fundo */
+    color: #333; /* Cor do texto principal (cinza escuro) */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333; /* Fundo escuro para o cabeçalho */
+    color: #fff; /* Texto branco no cabeçalho */
+    padding: 1rem 0; /* Espaçamento interno */
+    text-align: center; /* Centraliza o texto */
+}
+
+main {
+    padding: 20px; /* Adiciona um respiro nas laterais do conteúdo principal */
+    max-width: 800px; /* Limita a largura para não ficar muito esticado em telas grandes */
+    margin: auto; /* Centraliza o bloco de conteúdo na página */
+}
+
+section {
+    background-color: #fff; /* Fundo branco para cada seção */
+    margin-bottom: 20px; /* Espaço entre as seções */
+    padding: 20px;
+    border-radius: 8px; /* Deixa as bordas das seções arredondadas */
+}
+
+h1, h2 {
+    color: #2885ad; /* Uma cor de destaque roxa para os títulos */
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
