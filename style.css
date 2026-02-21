@@ -38,3 +38,51 @@ footer {
     padding: 20px;
     margin-top: 20px;
 }
+/* Estilo para o botão de modo noturno */
+#botao-modo-noturno {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 8px 12px;
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #333;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/*
+   ESTILOS DO MODO NOTURNO
+   Estas regras só serão aplicadas quando a classe "modo-noturno"
+   for adicionada ao <body> pelo JavaScript.
+*/
+
+body.modo-noturno {
+    background-color: #121212; /* Fundo principal escuro */
+    color: #e0e0e0; /* Cor de texto principal clara */
+}
+
+body.modo-noturno header {
+    background-color: #1f1f1f; /* Cabeçalho um pouco mais claro */
+    color: #fff;
+}
+
+body.modo-noturno section {
+    background-color: #1f1f1f; /* Seções com o mesmo fundo do cabeçalho */
+}
+
+body.modo-noturno h1,
+body.modo-noturno h2 {
+    color: #bb86fc; /* Roxo mais vibrante para o modo noturno */
+}
+
+body.modo-noturno a {
+    color: #bb86fc;
+}
+
+body.modo-noturno #botao-modo-noturno {
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #fff;
+}
